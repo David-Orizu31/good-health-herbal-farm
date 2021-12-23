@@ -67,3 +67,61 @@
     background-color: #5cb85c;
     color: white;
   }
+
+  .agro-logo {
+      width: 150px;
+      height: 50px;
+  }
+
+  .form-input {
+      color: black !important;
+  }
+
+  @media (max-width:480px) {
+      .btn-ghost {
+          width: 320px;
+          font-size: 14px;
+          padding: 10px !important;
+      }
+
+      .home-banner-div {
+        margin-top: 80px !important;
+    }
+  }
+
+  .home-banner-div {
+      background-color: white;
+      padding: 30px;
+      margin-top: 150px;
+      border-radius: 8px;
+  }
+
+  .home-banner-div h2 {
+    margin-top: 0px !important;
+    color: rgb(16, 95, 16);
+}
+
+.btn-start {
+    color: white !important;
+    background-color: rgb(16, 95, 16);
+    margin-top: 20px;
+}
+
+.welcome-header {
+    color: rgb(16, 95, 16);
+}
+
+.welcome-text {
+    font-size: 20px;
+}
+
+.btn-more {
+    background-color: rgb(34, 126, 34);
+    padding: 15px 30px 15px 30px;
+    border: 2px solid rgb(16, 95, 16);
+}
+
+.btn-more:hover {
+    color: rgb(16, 95, 16);
+    background-color: transparent;
+}
